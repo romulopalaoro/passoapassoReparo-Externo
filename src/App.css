@@ -1,0 +1,41 @@
+.App{
+  background-color: #fcfcf9;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background: #0abb98;
+  display: flex;
+  text-align: center;
+  font-size: 0.7rem;
+  position: fixed;
+}
+.container{
+  margin: 46px auto;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container button{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(247, 165, 165);
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    font-style: italic;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 35px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: rgb(253, 141, 141);
+}
